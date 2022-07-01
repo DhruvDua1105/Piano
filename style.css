@@ -1,0 +1,57 @@
+body{
+    
+    box-sizing: border-box;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.piano {
+    display: flex;
+ 
+}
+
+.white.active {
+    background-color: rgb(188, 187, 187);
+}
+.black.active {
+    background-color: rgb(32, 32, 32);
+}
+
+.white {
+    display: flex;
+    background-color: white;
+    height: 400px;
+    width: 100px;
+    border: 2px solid black;
+    justify-content: center;
+
+    
+}
+
+.black{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    height: 250px;
+    width: 50px;
+    margin-left: -25px;
+    margin-right: -25px;
+    z-index: 2;
+}
+
+/* .white:hover {
+    background-color: grey;
+    cursor: pointer;
+    
+}
+
+.black:hover{
+    background-color: rgb(24, 24, 24);
+    cursor: pointer;
+} */
